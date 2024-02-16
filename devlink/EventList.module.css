@@ -1,0 +1,149 @@
+.padding-global {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .padding-global {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+}
+
+.padding-section-large {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+@media screen and (max-width: 991px) {
+  .padding-section-large {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .padding-section-large {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.container-large {
+  width: 100%;
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-header_component {
+  display: block;
+  padding: 1.5rem;
+  align-items: end;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: 1fr max-content;
+  grid-template-rows: auto;
+
+  border-top: 1px solid var(--border-color--border-primary);
+  border-right: 1px solid var(--border-color--border-primary);
+  border-left: 1px solid var(--border-color--border-primary);
+}
+
+@media screen and (max-width: 767px) {
+  .card-header_component {
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+.max-width-large {
+  width: 100%;
+  max-width: 48rem;
+}
+
+.heading-style-h5 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .heading-style-h5 {
+    font-size: 0.875rem;
+  }
+}
+
+.margin-top {
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+}
+
+@media screen and (max-width: 991px) {
+  .margin-top {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .margin-top {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .margin-top {
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+}
+
+.margin-medium {
+  margin: 2rem;
+}
+
+@media screen and (max-width: 991px) {
+  .margin-medium {
+    margin: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .margin-medium {
+    margin: 1.25rem;
+  }
+}
+
+.margin-top.margin-xxsmall {
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+}
+
+.margin-xxsmall {
+  margin: 0.25rem;
+}
+
+.margin-top.margin-tiny {
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+}
+
+.margin-tiny {
+  margin: 0.125rem;
+}
+
+.stacked-list_list {
+  border-top: 1px solid var(--border-color--border-primary);
+  border-right: 1px solid var(--border-color--border-primary);
+  border-left: 1px solid var(--border-color--border-primary);
+}
